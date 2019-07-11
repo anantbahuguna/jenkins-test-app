@@ -1,6 +1,6 @@
 console.log('main.js loaded')
 
-var socket = io('http://localhost:3000')
+var socket = io()
 
 socket.on('connect',function() {
     console.log('connected')
